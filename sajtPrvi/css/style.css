@@ -149,7 +149,7 @@ a img:hover {
 
 .link li {
   list-style-type: none;
-
+  margin-bottom: 1em;
 }
 
 .link li a {
