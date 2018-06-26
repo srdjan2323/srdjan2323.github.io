@@ -22,7 +22,7 @@ header {
   width: 900px;
   height: 90px;
   margin: auto;
-  
+  z-index: 100;
   position: fixed;
   top: 0;
 
@@ -78,6 +78,7 @@ nav {
   background-color: red;
   border-top: 4px solid #01458E;
   border-bottom: 10px solid white;
+  z-index: 100;
 }
 
 #meni li {
