@@ -1,0 +1,64 @@
+/* mobilni telefon */
+fieldset {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    background-color: lightgray;
+}
+#noviZadatak {
+    width: 90%;
+    font-size: 1.5em;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom:  2px solid black;
+}
+#button {
+    width: 10em;
+    height: 3em;
+    background-color: yellowgreen;
+    color: aliceblue;
+}
+#filter {
+    width: 90%;
+    font-size: 1.5em;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom: 2px solid black;
+}
+.obrisati {
+    padding-right: 0.5em;
+    color: blue;
+    font-weight: 900;
+    float: right;  
+}
+ul#listaZadataka {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;    
+}
+li {
+    width: 90%;
+    font-size: 1.5em;
+    background-color: yellow;
+    border: 1px solid gray;
+}
+#button1 {
+    width: 10em;
+    height: 2em;
+    background-color: black;
+    color: aliceblue;
+}
+@media only screen and (min-width: 768px) {
+    /* Za tablet */
+    fieldset {
+        width: 60%;
+    }
+}
+@media only screen and (min-width: 992px) {
+    /* Za laptop i desktop */
+    fieldset {
+        width: 40%;   
+    }
+}
