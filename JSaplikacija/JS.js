@@ -7,11 +7,13 @@ window.onload = function(){
         } 
 // Dodavanje zadataka u listu pomoću button definisano klasičnom funkcijom
 document.getElementById('button').addEventListener('click', function(){
+        if (document.getElementById('noviZadatak').value !== "") {
         return unesiZadatke();
+    }
     });
 // Dodavanje zadataka u listu pomoću button definisano arrow funkcijom
     document.getElementById('noviZadatak').addEventListener('keyup', (event) => {
-    if (event.keyCode == 13) {
+    if (event.keyCode == 13 && document.getElementById('noviZadatak').value !== "") {
         return unesiZadatke();
     }
     });	
