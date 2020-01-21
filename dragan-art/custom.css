@@ -1,0 +1,193 @@
+.row {
+	margin-left: 0 !important;
+	margin-right: 0 !important;
+}
+
+#carousel {
+	margin-top: -100px;
+	background: red;
+}
+
+.my-nav {
+	background-color: transparent !important;
+	z-index: 99;
+}
+
+.my-nav a {
+	margin-right: 30px;
+	color: white !important;
+}
+
+.my-nav a:hover {
+	border-bottom: 2px solid white;
+	color: lightgray !important;
+}
+
+.nav-page a {
+	margin-right: 30px;
+}
+
+.nav-page a:hover {
+	border-bottom: 2px solid white;
+	color: lightgray !important;
+}
+
+.nav-page-galery {
+	background-color: teal;
+}
+
+.nav-page-galery a {
+	margin-right: 30px;
+	color: white !important;
+}
+
+.nav-page-galery a:hover {
+	border-bottom: 2px solid white;
+	color: lightgray !important;
+}
+
+.active a {
+	border-bottom: 2px solid white;
+}
+
+img.brand {
+	border-radius: 50%;
+	width: 60px;
+}
+
+p, figure {
+	font-family: 'Raleway', sans-serif;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+/* Footer */
+
+.footer-icon i {
+	color: white;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.footer-icon i:hover {
+	color: lightgray;
+	font-size: 30px;
+	padding: 10px;
+}
+
+.pic {
+	padding: 10px;
+}
+
+.gallery {
+-webkit-column-count: 3;
+-moz-column-count: 3;
+column-count: 3;
+-webkit-column-width: 33%;
+-moz-column-width: 33%;
+column-width: 33%; 
+}
+
+
+@media (max-width: 768px) {
+.gallery {
+-webkit-column-count: 1;
+-moz-column-count: 1;
+column-count: 1;
+-webkit-column-width: 100%;
+-moz-column-width: 100%;
+column-width: 100%;
+}
+}
+
+.mb-3 {
+	border-radius: 10px;
+	background-color: #333;
+}
+
+.mb-3 img {
+	padding: 5px 10px 5px 0;
+	margin-left: -10px;
+}
+
+.mb-3 img:hover {
+	opacity: 0.8;
+}
+
+#bg-img {
+	background-image: url(img/samospoznaja.jpg);
+	background-size: cover;;
+	min-height: 700px;
+	background-attachment: fixed;
+}
+
+.gap-70 {
+	padding: 70px 0;
+}
+
+.btn {
+	padding: 5px 40px;
+	border-radius: 30px;
+}
+
+.btn-link {
+	color: white;
+}
+
+.btn-link:hover {
+	text-decoration: none;
+	color: lightgray;
+}
+ .btn-link:focus {
+    text-decoration: none;
+ }
+
+ .tehnike {
+ 	border-right: 1.5px solid teal;
+ 	padding-right: 10px;
+ }
+
+ .tehnike p {
+ 	border-bottom: 1px solid teal;
+ 	padding-bottom: 5px;
+ }
+
+ .tehnike a {
+	text-decoration: none;
+	color: white;
+ }
+
+ .tehnike a:hover {
+ 	color: gray;
+ }
+
+ .tehnike a:focus {
+ 	color: teal;
+ }
+
+ hr {
+ 	background-color: teal;
+ }
+
+ figure {
+ 	font-size: 0.8em;
+ }
+
+ @media only screen and (max-width: 1076px) { 
+   
+
+  }
+
+@media only screen and (min-width: 768px) { 
+	
+
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) { 
+p {
+	font-size: 0.8em;
+	} 
+}
